@@ -16,7 +16,7 @@ source venv/bin/activate
 
 ### Depenendencies
 
-Freeze currentyl installed packages:
+Freeze currently installed packages:
 ```bash
 pip freeze > requirements.txt
 ```
@@ -28,10 +28,13 @@ pip install -r requirements.txt
 
 ## Using repository
 
-Starting all tests:
-
+Start all tests:
 ```bash
 pytest
+```
+
+Start all tests with coverage:
+```bash
 pytest --cov=patterns tests
 ```
 
