@@ -26,6 +26,15 @@ Install packages from file:
 pip install -r requirements.txt
 ```
 
+## Using repository
+
+Starting all tests:
+
+```bash
+pytest
+pytest --cov=design-patterns tests 
+```
+
 ## Design Patterns by examples
 
 Examples of my code for selected design patterns 
