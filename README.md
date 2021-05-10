@@ -32,7 +32,7 @@ Starting all tests:
 
 ```bash
 pytest
-pytest --cov=design-patterns tests 
+pytest --cov=patterns tests
 ```
 
 ## Design Patterns by examples
@@ -44,7 +44,7 @@ and [Refactoring Guru](https://refactoring.guru/design-patterns).
 ### Creational patterns
 
 - Abstract Factory - Creates an instance of several families of classes
-- Builder - Separates object construction from its representation
+- [Builder](patterns/creational_pattern_builder.py) - Separates object construction from its representation
 - Factory Method - Creates an instance of several derived classes
 - Object Pool - Avoid expensive acquisition and release of resources by recycling objects that are no longer in use
 - Prototype - A fully initialized instance to be copied or cloned
