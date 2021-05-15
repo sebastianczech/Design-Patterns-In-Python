@@ -46,7 +46,7 @@ and [Refactoring Guru](https://refactoring.guru/design-patterns).
 
 ### Creational patterns
 
-- Abstract Factory - Creates an instance of several families of classes
+- [Abstract Factory](patterns/creational_pattern_abstract_factory.py) - Creates an instance of several families of classes
 - [Builder](patterns/creational_pattern_builder.py) - Separates object construction from its representation
 - [Factory Method](patterns/creational_pattern_factory_method.py) - Creates an instance of several derived classes
 - Object Pool - Avoid expensive acquisition and release of resources by recycling objects that are no longer in use
