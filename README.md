@@ -51,11 +51,11 @@ and [Refactoring Guru](https://refactoring.guru/design-patterns).
 - [Factory Method](patterns/creational_pattern_factory_method.py) - Creates an instance of several derived classes
 - Object Pool - Avoid expensive acquisition and release of resources by recycling objects that are no longer in use
 - Prototype - A fully initialized instance to be copied or cloned
-- Singleton - A class of which only a single instance can exist
+- [Singleton](patterns/creational_pattern_singleton.py) - A class of which only a single instance can exist
 
 ### Structural patterns
 
-- Adapter - Match interfaces of different classes
+- [Adapter](patterns/structural_pattern_adapter.py) - Match interfaces of different classes
 - Bridge - Separates an object's interface from its implementation
 - Composite - A tree structure of simple and composite objects
 - Decorator - Add responsibilities to objects dynamically
