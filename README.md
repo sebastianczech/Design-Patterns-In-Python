@@ -62,7 +62,7 @@ and [Refactoring Guru](https://refactoring.guru/design-patterns).
 - Facade - A single class that represents an entire subsystem
 - Flyweight - A fine-grained instance used for efficient sharing
 - Private Class Data - Restricts accessor/mutator access
-- Proxy - An object representing another object
+- [Proxy](patterns/structural_pattern_proxy.py) - An object representing another object
 
 ### Behavioral patterns
 
