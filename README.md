@@ -58,7 +58,7 @@ and [Refactoring Guru](https://refactoring.guru/design-patterns).
 - [Adapter](patterns/structural_pattern_adapter.py) - Match interfaces of different classes
 - Bridge - Separates an object's interface from its implementation
 - Composite - A tree structure of simple and composite objects
-- Decorator - Add responsibilities to objects dynamically
+- [Decorator](patterns/structural_pattern_decorator.py) - Add responsibilities to objects dynamically
 - Facade - A single class that represents an entire subsystem
 - Flyweight - A fine-grained instance used for efficient sharing
 - Private Class Data - Restricts accessor/mutator access
