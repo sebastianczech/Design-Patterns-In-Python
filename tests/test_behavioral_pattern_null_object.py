@@ -6,7 +6,7 @@ def test_dot1q_encap():
     vlanEncap = VlanEncapsulationData()
 
     # when
-    result = vlanEncap.getEncapsulation("dot1q").getEncapsulation()
+    result = vlanEncap.prepare_encapsulation("dot1q").get_encapsulation_name()
 
     # then
     assert result == "dot1q"
@@ -17,7 +17,7 @@ def test_not_existing_encap():
     vlanEncap = VlanEncapsulationData()
 
     # when
-    result = vlanEncap.getEncapsulation("not_existing_encap").getEncapsulation()
+    result = vlanEncap.prepare_encapsulation("not_existing_encap").get_encapsulation_name()
 
     # then
     assert result == ""
