@@ -72,9 +72,9 @@ and [Refactoring Guru](https://refactoring.guru/design-patterns).
 - Iterator - Sequentially access the elements of a collection
 - Mediator - Defines simplified communication between classes
 - Memento - Capture and restore an object's internal state
-- Null Object - Designed to act as a default value of an object
+- [Null Object](patterns/behavioral_pattern_null_object.py) - Designed to act as a default value of an object
 - Observer - A way of notifying change to a number of classes
 - State - Alter an object's behavior when its state changes
-- Strategy - Encapsulates an algorithm inside a class
+- [Strategy](patterns/behavioral_pattern_strategy.py) - Encapsulates an algorithm inside a class
 - Template method - Defer the exact steps of an algorithm to a subclass
 - Visitor - Defines a new operation to a class without change
