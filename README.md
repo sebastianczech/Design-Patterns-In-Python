@@ -50,7 +50,7 @@ and [Refactoring Guru](https://refactoring.guru/design-patterns).
 - [Builder](patterns/creational_pattern_builder.py) - Separates object construction from its representation
 - [Factory Method](patterns/creational_pattern_factory_method.py) - Creates an instance of several derived classes
 - Object Pool - Avoid expensive acquisition and release of resources by recycling objects that are no longer in use
-- Prototype - A fully initialized instance to be copied or cloned
+- [Prototype](patterns/creational_pattern_prototype.py) - A fully initialized instance to be copied or cloned
 - [Singleton](patterns/creational_pattern_singleton.py) - A class of which only a single instance can exist
 
 ### Structural patterns
